@@ -1,0 +1,72 @@
+/*phần footer*/
+section.foot {
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #609966;
+    color: white;
+}
+
+div.colA > ul{
+    margin: 20px;
+    padding: 0;
+}
+
+div.colA > ul > li{
+    margin: 2px;
+}
+
+.colA1 {
+    font-size: medium;
+}
+
+div.colB > ul {
+    margin: 20px;
+    padding: 0;
+    margin-left: 100px;
+}
+
+div.colB > ul > li > a{
+    color: white;
+}
+
+.colB1 {
+    font-size: medium;
+}
+
+div.colC > ul {
+    margin: 20px;
+    padding: 0;
+    margin-left: 300px;
+}
+
+.colC1 {
+    font-size: medium;
+}
+
+.colC > ul > li {
+    display: flex;
+}
+
+.colC > ul > li > a{
+    padding: 10px;
+    margin: 0;
+    font-size: xx-large;
+    color: black;
+}
+
+.colC > ul > li > a > img{
+    width: 80px;
+}
+
+.pay > li {
+    display: flex;
+}
+
+footer {
+    background-color: #40513B;
+    height: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+}

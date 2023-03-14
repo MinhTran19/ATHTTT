@@ -1,0 +1,215 @@
+/* đặt biến */
+:root {
+  --bg-color: #EDF1D6;
+  --bg-btn-clear: #797979;
+  --bg-btn-color: #609966;
+  --text-content: #000;
+  --text-btn-color: #ffffff;
+  --bg-form: #9DC08B;
+  --bg-line: #40513B;
+  --header-height: 68px;
+  --font-sz: 16px;
+}
+
+/*Phần dùng chung*/
+.login-success {
+  display: none;
+}
+
+div.line {
+  height: 2px;
+  margin-bottom: 16px;
+  background-color: var(--bg-line);
+}
+
+.under-space {
+  margin: 32px 0;
+}
+
+div.banner {
+  height: 200px;
+  background-image: url('../images/1.jpg');
+  background-size: cover;
+  background-position-y: bottom;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col2, .col50 {
+  width: 50%;
+}
+
+.col20 {
+  width: 20%;
+}
+
+.col3 {
+  width: 33.3333%;
+}
+
+.col30 {
+  width: 30%;
+}
+
+button {
+  border: none;
+  padding: 6px 16px 8px 16px;
+}
+
+.btn-buy,
+.btn {
+  background-color: var(--bg-btn-color);
+  color: var(--text-btn-color);
+}
+
+button.decrease,
+button.increase {
+  font-size: 20px;
+  background-color: transparent;
+}
+
+.btn-clear {
+  background-color: var(--bg-btn-clear);
+  color: var(--text-btn-color);
+}
+
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* đổi thanh scroll xịn hơn */
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+/* layout 1200 */
+.grid {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.main.grid {
+  margin-top: 32px;
+}
+
+body {
+  width: auto;
+  height: 100vh;
+  background-color: var(--bg-color);
+  font-size: var(--font-sz);
+}
+
+ul > li {
+  list-style: none;
+}
+
+/*Phần thân index*/
+.hot-place.d-flex {
+  justify-content: space-around;
+}
+
+.place-image {
+  height: 250px;
+  border-radius: 16px;
+  box-shadow: var(--bg-form) 4px 8px;
+  margin-bottom: 16px;
+  background-size: cover;
+}
+
+.place-image.canada {
+  background-image: url('../images/1.jpg');
+}
+
+.place-image.dl {
+  background-image: url('../images/2.jpg');
+}
+
+.place-image.nb {
+  background-image: url('../images/3.jpg');
+}
+
+.place-image.hg {
+  background-image: url('../images/4.jpg');
+}
+
+.reason.d-flex {
+  
+  text-align: center;
+}
+
+.about {
+  text-align: center;
+}
+
+/*Phần thân tourDetails*/
+.image-item {
+  text-align: center;
+}
+
+.editAmount > div {
+  width: 100%;
+  text-align: end;
+}
+
+.editAmount {
+  flex-direction: row-reverse;
+}
+
+/*Phần thân carts*/
+.combo-amount input {
+  width: 30px;
+  text-align: center;
+}
+
+.item-wrap {
+  margin: 16px;
+}
+
+.item-image {
+  padding-right: 16px;
+}
+
+.total-area {
+  flex-direction: row-reverse;
+}
+
+.total-price {
+  width: 100%;
+  text-align: end;
+}
+
+.editAmount {
+  text-align: end;
+}
+
+/*Phần users*/
+.btn-submit {
+  text-align: end;
+}
+
+.btn {
+  font-size: var(--font-sz);
+}
+
+.management-content {
+  margin: 0 32px;
+}
+
+.management-content > h2 {
+  margin: 16px 0 16px 32px;
+}

@@ -1,0 +1,233 @@
+/*phần chung*/
+/* .main {
+    background-color: #EDF1D6;
+}
+ul > li{
+    list-style-type: none;
+} */
+
+/*phần header*/
+/* section.head > ul {
+    display: flex;
+    margin: 0;
+}
+section > ul > li{
+    
+    padding:  5px;
+} */
+
+/*phần hình user*/
+/* ul> li > img {
+    width: 20%;
+    border-radius: 50%;
+}
+.col4 {
+    margin-left: 40%;
+} */
+
+/*phần tìm kiếm*/
+/* .col1 {
+    margin-top: 10px;
+    margin-left: 21%;
+    width: 30%;
+}
+ul.center > li > input {
+    margin-top: 10px;
+
+}
+ul.center > li > button {
+    width: 100%;
+    margin-top: 14px;
+    background-color: #EDF1D6;
+    border: #EDF1D6;
+    padding: 0;
+} */
+
+/*phần menu*/
+/* section.left > ul > li > a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px 8px;
+}
+section.left > ul > li >a:hover{
+    background-color: #609966;
+    color: white;
+}
+.left {
+    width: 15%;
+}
+.left > ul {
+    padding: 0px;
+    margin: 7%;
+} */
+
+/*phần nội dung*/
+/* .right {
+    width: 85%;
+    max-height: 900px;
+    overflow:auto;
+}
+.right > img {
+    width: 90%;
+    height: 20%;
+    margin-left: 7%;
+    border-top: 1px solid #609966;
+    padding: 10px;
+
+}
+section.main {
+    display: flex;
+} */
+
+/* chữ "Địa điểm nổi tiéng", "tour du lich"*/
+.right > p{
+    /* margin-left: 7%; */
+    padding: 20px;
+    font-size:medium ;
+}
+
+/*Phần 4 hình địa điểm*/
+.items {
+    /* margin-left: 7%; */
+    display: flex;
+}
+.items > div{
+    width: 25%;
+}
+.items > div > img {
+    width: 80%;
+    height: 270px;
+    border-radius: 5%;
+    transition: transform ease 0.5s;
+}
+.items > div > img:hover {
+    transform: scale(1.05);
+}
+.items > div > p {
+    margin-top: 3px;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+/*phần danh sách tour*/
+.items2 {
+    /* margin-left: 5%; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.items2 > div {
+    width: 23%;
+    border: 1px solid #609966;
+    text-align: center;
+    border-radius: 2%;
+    background-color: white;
+    margin: 0 16px 16px 0;
+    padding: 0 8px;
+}
+.items2 > div > img {
+    width: 90%;
+    height: 200px;
+    border-radius: 18%;
+    padding-top: 10px;
+}
+.items2 > div > h1 {
+    font-size: 2rem;
+    padding: 5px;
+    margin: 0;
+    text-align: left;
+    margin-left: 5px;
+}
+.items2 > div > h2 {
+    font-size: small;
+    margin: 0;
+    padding: 2px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.items2 > div > h2 > button {
+    float: right;
+    width: 40%;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    background-color: #609966;
+    color: white;
+    border: #609966;
+    border-radius: 10%;
+    animation: doiMauChu ease 1s infinite;
+}
+@keyframes doiMauChu {
+    from {
+        color: white;
+        background-color: #609966;
+    }
+    to {
+        color: white;
+        background-color: #10220b;
+    }
+}
+
+/*phần footer*/
+/* section.foot {
+    display: flex;
+    background-color: #609966;
+    color: white;
+}
+
+div.colA > ul{
+    margin: 20px;
+    padding: 0;
+}
+div.colA > ul > li{
+    margin: 2px;
+}
+.colA1 {
+    font-size: medium;
+}
+
+div.colB > ul {
+    margin: 20px;
+    padding: 0;
+    margin-left: 100px;
+}
+div.colB > ul > li > a{
+    color: white;
+}
+.colB1 {
+    font-size: medium;
+}
+
+div.colC > ul {
+    margin: 20px;
+    padding: 0;
+    margin-left: 300px;
+}
+
+.colC1 {
+    font-size: medium;
+}
+.colC > ul > li {
+    display: flex;
+}
+.colC > ul > li > a{
+    padding: 10px;
+    margin: 0;
+    font-size: xx-large;
+    color: black;
+}
+.colC > ul > li > a > img{
+    width: 80px;
+}
+.pay > li {
+    display: flex;
+}
+
+footer {
+    background-color: #40513B;
+    height: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+} */
